@@ -16,6 +16,3 @@ create:
 
 delete:
 	openstack stack delete my-stack -y
-
-run:
-	while [ true ]; make create; sleep 600; make delete; done;
